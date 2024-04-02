@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Salsa&display=swap');
+@import url('https://fonts.google.com/share?selection.family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900|Roboto+Mono:ital,wght@0,100..700;1,100..700');
 body{
     background-color: black;
     color: white;
-    /* font-family: Josefin+Sans, Salsa; */
+    font-family: merriweather, 
 }
 .center{
     background-color: #03191e;
@@ -12,7 +12,7 @@ body{
 header{
     display: grid;
     grid-template-columns: 15% 1fr 15%;
-    border-color: black; /*place holder*/
+    border-color: black;
     border-style: solid;
 }
 .home{
@@ -53,34 +53,34 @@ h2{
 .kai{
     border-radius: 100%;
     margin: 0 auto;
-    border-color: black; /*place holder*/
+    border-color: black;
     border-style: solid;
     border-width: 3px;
     transition: transform .5s;
     overflow: hidden;
 }
 .kai:hover{
-    border-color: #941C2F; /*on hover*/
+    border-color: #941C2F;
     transform: scale(115%);
 }
 .smolder{
     margin: 0 auto;
     border-radius: 100%;
-    border-color: black; /*place holder*/
+    border-color: black;
     border-style: solid;
     border-width: 3px;
     transition: transform .5s;
     overflow: hidden;
 }
 .smolder:hover{
-    border-color: #941C2F; /*on hover*/
+    border-color: #941C2F;
     transform: scale(115%);
 }
 
 .cait{
     margin: 0 auto;
     border-radius: 100%;
-    border-color: black; /*place holder*/
+    border-color: black;
     border-style: solid;
     border-width: 3px;
     transition: transform .5s;
@@ -91,41 +91,40 @@ h2{
     justify-self: center;
 }
 .cait:hover{
-    border-color: #941C2F; /*on hover*/
+    border-color: #941C2F;
     transform: scale(115%);
 }
 
 .ez{
     margin: 0 auto;
     border-radius: 100%;
-    border-color: black; /*place holder*/
+    border-color: black;
     border-style: solid;
     border-width: 3px;
     transition: transform .5s;
     overflow: hidden;
 }
 .ez:hover{
-    border-color: #941C2F; /*on hover*/
+    border-color: #941C2F;
     transform: scale(115%);
 }
 
 .jinx{
     margin: 0 auto;
     border-radius: 100%;
-    border-color: black; /*place holder*/
+    border-color: black;
     border-style: solid;
     border-width: 3px;
     transition: transform .5s;
     overflow: hidden;
 }
 .jinx:hover{
-    border-color: #941C2F; /*on hover*/
+    border-color: #941C2F;
     transform: scale(115%);
 }
 
 footer{
     height: 30px;
-    /* background-color: #03191e; */
     text-align: bottom;
     margin-bottom: 0;
 }
