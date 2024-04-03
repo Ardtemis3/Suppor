@@ -1,6 +1,10 @@
 body{
     background-color: black;
     color: white;
+    font-family: "Merriweather", serif;    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Mono", monospace;
 }
 .center{
     background-color: #03191e;
@@ -10,17 +14,17 @@ body{
 header{
     display: grid;
     grid-template-columns: 15% 1fr 15%;
-    border-color: black; /*place holder*/
+    border-color: black;
     border-style: solid;
 }
 footer{
     height: 30px;
-    /* background-color: #03191e; */
     text-align: bottom;
     margin-bottom: 0;
 }
 .ss{
     margin-bottom: 0;
+    padding-left: 20px;
 }
 .logo{
     align-self: right;
@@ -37,18 +41,20 @@ h2{
     grid: 2;
     font-size: 2em;
 }
-.home{
+.home,.home:link, .home:visited, .home:hover, .home:active{
     align-self: center;
     text-align: left;
     grid: 1;
     font-size: 1.5em;
     padding-left: 1.5em;
+    text-decoration: none;
+    color:white;
 }
 .home:hover{
     color: aquamarine;
 }
 .why{
-    padding: 10px;
+    padding: 20px;
     font-size: 1.5em;
 }
 .support{
@@ -59,6 +65,7 @@ h2{
 .chara{
     height: 95px;
     width: 95px;
+    
 }
 .item{
     height: 80px;
@@ -66,4 +73,8 @@ h2{
     border-color: black;
     border-style: solid;
     border-width: 5px;
+}
+.name{
+    padding: 20px;
+    padding-top: 0;
 }
